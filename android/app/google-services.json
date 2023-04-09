@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1048493441582",
+    "firebase_url": "https://shoppers-df8fe-default-rtdb.firebaseio.com",
+    "project_id": "shoppers-df8fe",
+    "storage_bucket": "shoppers-df8fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048493441582:android:16268acbcd379f387a55bf",
+        "android_client_info": {
+          "package_name": "com.example.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048493441582-rccegv1qcf5fvmquc2ealgv7n6pgjkp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9EGW6I2G0Oo5gJQbx4wLBfnj4460Iiwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048493441582-rccegv1qcf5fvmquc2ealgv7n6pgjkp6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1048493441582-thosrfilo1u7ne4crflj53lgr7u6v1t4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.telphatech.shoppers"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
