@@ -44,11 +44,13 @@ class AccountServices {
     return orderList;
   }
 
-  void logOut(BuildContext context)  {
+  Future<void> logOut(BuildContext context)  async {
     try {
-      SharedPreferences sharedPreferences =
-           SharedPreferences.getInstance() as SharedPreferences;
-       sharedPreferences.setString('x-auth-token', '');
+
+      Future<SharedPreferences> prefsFuture = SharedPreferences.getInstance();
+      SharedPreferences prefs = await prefsFuture;
+
+       prefs.setString('x-auth-token', '');
       Navigator.pushNamedAndRemoveUntil(
         context,
         AuthScreen.routeName,
